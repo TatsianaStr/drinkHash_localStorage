@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+        <form> 
+          <input type=button value='Добавить рецепт напитка' onclick='addButton()'><br>
+          <input type=button value='Рецепт напитка' onclick='getButton()'><br>
+          <input type=button value='Удалить напиток' onclick='deleteButton()'><br>
+          <input type=button value='Список напитков' onclick='getAllDrinks()'> 
+        </form> 
+    </div> 
+    <div id="gap"></div>
+   <div>
+    <form> 
+        <input type=button value='Добавить рецепт блюда' onclick='addButtonDish()'><br>
+        <input type=button value='Рецепт блюда' onclick='getButtonDish()'><br>
+        <input type=button value='Удалить блюдо' onclick='deleteButtonDish()'><br>
+        <input type=button value='Список блюд' onclick='getAllDish()'> 
+    </form>     
+  </div>   
+    <script src="LocalStorage.js" defer></script>
+      
+  </body>
+</html>
